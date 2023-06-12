@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#ff6856" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>mira-tur</title>
+  </head>
+
+  <body class="page">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){m[i]=m[i]function(){(m[i].a=m[i].a[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(93915328, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/93915328"
+          style="position: absolute; left: -9999px"
+          alt="" /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <header class="header">
+      <ul class="slideshow">
+        <li class="slideshow__item">
+          <img
+            src="./images/background/antelope-canyon.jpg"
+            class="slide__header__img active"
+            alt="каньон" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/aurora.jpg"
+            class="slide__header__img"
+            alt="суверное сияние" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/beach1.jpg"
+            class="slide__header__img"
+            alt="океан" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/beach2.jpg"
+            class="slide__header__img"
+            alt="океан" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/beach3.jpg"
+            class="slide__header__img"
+            alt="пляж" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/cappadocia.jpg"
+            class="slide__header__img"
+            alt="воздушные шары" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/kuba.jpg"
+            class="slide__header__img"
+            alt="машины" />
+        </li>
+        <li class="slideshow__item">
+          <img
+            src="./images/background/namibia.jpg"
+            class="slide__header__img"
+            alt="сухое дерево" />
+        </li>
+      </ul>
+      <div class="header__menu">
+        <ul class="header__contacts_list">
+          <li class="header__contact_item">
+            <a href="tel:+78126120323" class="header__contact_link"
+              >+ 7 812 612 03 23</a
+            >
+          </li>
+          <li class="header__contact_item">
+            <a href="tel:+79516770390" class="header__contact_link"
+              >+ 7 951 677 03 90</a
+            >
+          </li>
+          <li class="header__contact_item">
+            <a href="mailto:miratur.spb@mail.ru" class="header__contact_link"
+              >miratur.spb@mail.ru</a
+            >
+          </li>
+          <li class="header__contact_item">
+            <button type="button" class="header__contact_feedback">
+              Обратный звонок
+            </button>
+          </li>
+        </ul>
+
+        <div class="header__section_logo">
+          <img src="./images/logo.svg" alt="логотип" class="header__logo" />
+          <h1 class="header__title">ТУРАГЕНТСТВО МИРА</h1>
+          <p class="header__subtitle">расширяем границы вашего отдыха</p>
+        </div>
+
+        <div class="header__section_adress">
+          <p class="header__adress">
+            г. Санкт-Петербург, Колпино, ул.<br />Братьев Радченко,11,<br />Лит.А,
+            офис 4-Н
+          </p>
+          <p class="header__work-time">
+            пн-птн с 11:00 до 19:00<br />сб с 11:00 до 16:00<br />вс выходной
+          </p>
+        </div>
+
+        <div class="burger__menu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </div>
+      </div>
+
+      <div id="search__tour" class="tv-search-form tv-moduleid-9960560"></div>
+
+      <nav class="header__nav">
+        <ul class="header__nav_list">
+          <li class="header__nav_item">
+            <a href="" class="nav__link header__nav_link">Купить онлайн</a>
+          </li>
+          <li class="header__nav_item header__by__in-office">
+            <a href="" class="nav__link header__nav_link">Купить в офисе</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="#cruise" class="nav__link header__nav_link">Круизы</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="#reviews" class="nav__link header__nav_link">Отзывы</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="#about" class="nav__link header__nav_link">О нас</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="#ready" class="nav__link header__nav_link">Горящие</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile__nav">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="mobile__list">
+            <li class="mobile__item">
+              <a
+                class="nav__link mobile__link"
+                aria-current="page"
+                href="#about"
+                >Купить онлайн</a
+              >
+            </li>
+            <li class="mobile__item header__by__in-office">
+              <a class="nav__link mobile__link" href="">Купить в офисе</a>
+            </li>
+            <li class="mobile__item">
+              <a class="nav__link mobile__link" href="#cruise">Круизы</a>
+            </li>
+            <li class="mobile__item">
+              <a class="nav__link mobile__link" href="#reviews">Отзывы</a>
+            </li>
+            <li class="mobile__item">
+              <a class="nav__link mobile__link" href="#about">О нас</a>
+            </li>
+            <li class="mobile__item">
+              <a class="nav__link mobile__link" href="#ready">Горящие</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <ul class="send-message">
+        <li>
+          <a
+            href="https://vk.com/im?media=&sel=-39126200"
+            target="_blank"
+            class="mail"
+            >vkontakte
+            <img src="./images/VK.png" alt="vkontakte" />
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/+79516770390" target="_blank" class="whatsapp"
+            >Whatsapp
+            <img src="./images/WhatsApp.png" alt="whatsapp" />
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/+79819891887" target="_blank" class="telegram"
+            >Telegram
+            <img src="./images/Tg.png" alt="telegram" />
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="main__title">НАШИ ПАРТНЕРЫ</h2>
+
+      <div class="partners">
+        <div class="partners__block">
+          <ul class="partners__list">
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+          </ul>
+          <ul class="partners__list">
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+            <li class="partners__item"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="test__block">
+          <div class="test__questionnaire">
+            <h2 class="test__title">7 шагов к идеальному отпуску!</h2>
+            <h4 class="test__subtitle">
+              Пройдите тест и получите бесплатный подбор тура
+            </h4>
+            <p class="test__paragraph">
+              Ответьте на 7 вопросов и получите качественные варианты туров с
+              гарантией честной цены, онлайн оформлением и поддержкой
+              квалифицированного специалиста!
+            </p>
+            <div class="test__buttons">
+              <button type="button" class="test__button test__button-send">
+                Отправить
+              </button>
+              <a href="#search__tour" class="test__button test__button-search">
+                Поиск тура
+              </a>
+            </div>
+          </div>
+          <img
+            src="./images/Group33.jpg"
+            alt="девушка за ноутбуком"
+            class="test__picture" />
+        </div>
+      </div>
+
+      <h2 id="about" class="about main__title">О НАС</h2>
+      <div class="about__block">
+        <ul class="about__list">
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              Любовь к людям<br />и к путешествиям
+            </p>
+          </li>
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              Честная цена операторов без наценок
+            </p>
+          </li>
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              Берем ответственность за ваш отдых на себя
+            </p>
+          </li>
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              Возможность удаленного бронирования
+            </p>
+          </li>
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              В курсе всех актуальных изменений в сфере путешествий
+            </p>
+          </li>
+          <li class="about__item">
+            <span class="about__item_image"></span>
+            <p class="about__item_paragraph">
+              Поддержка во время путешествия 24/7
+            </p>
+          </li>
+        </ul>
+        <ul class="figures__list">
+          <li class="fiqures__item">
+            <span class="fiqures__number">21 653</span>
+            <p class="fiqures__paragraph">Оформленных туров</p>
+          </li>
+          <li class="fiqures__item">
+            <span class="fiqures__number">12</span>
+            <p class="fiqures__paragraph">Лет честной работы</p>
+          </li>
+          <li class="fiqures__item">
+            <span class="fiqures__number">43 684</span>
+            <p class="fiqures__paragraph">Счастливых туристов</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div> -->
+      <div class="why-we">
+        <div class="why-we__block">
+          <div class="why-we__block__text">
+            <h2 class="why-we__title"><strong>Почему мы?</strong></h2>
+            <p class="why-we__paragraph">
+              Наша репутация - ваш незабываемый отпуск!<br />
+              12 лет, с любовью и заботой о Вашем безопасном путешествии! Более
+              40 000 тысяч довольных туристов. С 2012 являемся официальным
+              представителем туроператора FUN&SUN в Колпино.
+            </p>
+            <p class="why-we__paragraph">
+              <strong>Наша команда</strong> — это профессионалы, минимальный
+              опыт работы которых 7 лет. Мы работаем только с надежными
+              партнерами! Принцип — прямые контакты и договоры с туроператорами
+              и партнерами! Не важен ваш регион проживания, наши клиенты от
+              Якутии до Калининграда.
+            </p>
+            <p class="why-we__paragraph">Работаем в офисе и онлайн.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="staff">
+        <ul class="staff__list">
+          <li class="staff__item">
+            <span class="staff__image"></span>
+            <h2 class="staff__name">Снежана Антипина</h2>
+            <h4 class="staff__profession">Директор офиса</h4>
+            <p class="staff__paragraph">
+              Более 20 лет в профессии, с 2012 руковожу собственным офисом.
+              Огромный опыт личных путешествий. Люблю делать людей
+              счастливее,&nbsp;открывая новые горизонты.<br />Мой принцип — быть
+              лучшей версией себя!
+            </p>
+            <button
+              type="button"
+              class="staff__button__popup"
+              data-manager-name="Снежаны Антипиной">
+              Полетели?
+            </button>
+          </li>
+          <li class="staff__item">
+            <span class="staff__image"></span>
+            <h2 class="staff__name">Ольга Овсянникова</h2>
+            <h4 class="staff__profession">Менеджер</h4>
+            <p class="staff__paragraph">
+              Большой опыт в профессии и личных путешествиях. Инспектировала
+              огромное количество отелей в Египте, Турции и Тунисе. Знаю, где
+              выгодно отдохнуть в России. Гарантирую личную поддержку и внимание
+              от подбора тура до возвращения домой!
+            </p>
+            <button
+              type="button"
+              class="staff__button__popup"
+              data-manager-name="Ольги Овсянниковой">
+              Полетели?
+            </button>
+          </li>
+          <li class="staff__item">
+            <span class="staff__image"></span>
+            <h2 class="staff__name">Галина Михеева</h2>
+            <h4 class="staff__profession">Менеджер</h4>
+            <p class="staff__paragraph">
+              Влюбляю в путешествия более 12 лет! Лично проинспектировала 15
+              стран и более 1000 отелей. Внимательная к людям и деталям.
+              Стараюсь довести ваше путешествие до совершенства. Ваш отпуск
+              в надежных руках!
+            </p>
+            <button
+              type="button"
+              class="staff__button__popup"
+              data-manager-name="Галины Михеевой">
+              Полетели?
+            </button>
+          </li>
+        </ul>
+
+        <div
+          id="carouselExample"
+          class="carousel slide staff__slide"
+          data-bs-touch="true">
+          <ul class="carousel-inner staff__list__slider">
+            <li class="carousel-item staff__item__slider active">
+              <span class="staff__image"></span>
+              <h2 class="staff__name">Снежана Антипина</h2>
+              <h4 class="staff__profession">Директор офиса</h4>
+              <p class="staff__paragraph">
+                Более 20 лет в профессии, с 2012 руковожу собственным офисом.
+                Огромный опыт личных путешествий. Люблю делать людей
+                счастливее,&nbsp;открывая новые горизонты.<br />Мой принцип —
+                быть лучшей версией себя!
+              </p>
+              <div>
+                <button
+                  type="button"
+                  class="staff__button__popup"
+                  data-manager-name="Снежаны Антипиной">
+                  Полетели?
+                </button>
+              </div>
+            </li>
+            <li class="carousel-item staff__item__slider">
+              <span class="staff__image"></span>
+              <h2 class="staff__name">Ольга Овсянникова</h2>
+              <h4 class="staff__profession">Менеджер</h4>
+              <p class="staff__paragraph">
+                Большой опыт в профессии и личных путешествиях. Инспектировала
+                огромное количество отелей в Египте, Турции и Тунисе. Знаю, где
+                выгодно отдохнуть в России. Гарантирую личную поддержку
+                и внимание от подбора тура до возвращения домой!
+              </p>
+              <button
+                type="button"
+                class="staff__button__popup"
+                data-manager-name="Ольги Овсянниковой">
+                Полетели?
+              </button>
+            </li>
+            <li class="carousel-item staff__item__slider">
+              <span class="staff__image"></span>
+              <h2 class="staff__name">Галина Михеева</h2>
+              <h4 class="staff__profession">Менеджер</h4>
+              <p class="staff__paragraph">
+                Влюбляю в путешествия более 12 лет! Лично проинспектировала 15
+                стран и более 1000 отелей. Внимательная к людям и деталям.
+                Стараюсь довести ваше путешествие до совершенства. Ваш отпуск
+                в надежных руках!
+              </p>
+              <button
+                type="button"
+                class="staff__button__popup"
+                data-manager-name="Галины Михеевой">
+                Полетели?
+              </button>
+            </li>
+          </ul>
+
+          <div class="carousel__controller">
+            <button
+              class="slider__prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"></button>
+            <button
+              class="slider__next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"></button>
+          </div>
+        </div>
+      </div>
+
+      <div id="cruise" class="cruise">
+        <h2 class="main__title cruise__title">ПОИСК КРУИЗА</h2>
+        <div class="cruise__block">
+          <iframe
+            src="https://bitrix.infoflot.com/rest/api/search.filter/?key=YTo0OntzOjI6IklEIjtzOjQ6IjEyMTciO3M6NDoiVVNFUiI7czoyODoiYldseVlYUjFjaTV6Y0dKQWJXRnBiQzV5ZFE9PSI7czo2OiJSQU5ET00iO3M6ODoiMTNtaGU0MnoiO3M6MTU6IklORk9GTE9ULUFQSUtFWSI7czo0MDoiMjIyNzUwYmJiMmYxYjAyZDJlMzkwYjY2NmIxYjZiODQ3NjhlMGZlZiI7fQ=="
+            style="border: none"
+            frameborder="0"
+            scrolling="yes"
+            width="100%"
+            height="2450px"
+            id="infoflotWidget"
+            onload="infoflotWidgetLoad(this)"
+            allow="clipboard-read; clipboard-write"></iframe>
+          <script id="infoflotWidgetScript">
+            let infoflotWidget = document.getElementById("infoflotWidget");
+            const setParentWindowParams = function (frame = infoflotWidget) {
+              //параметры родительского окна
+              if (frame.contentWindow) {
+                frame.contentWindow.postMessage(
+                  {
+                    parentParams: {
+                      parentScrollTop: window.scrollY,
+                      parentHeight: window.innerHeight,
+                      top: frame.offsetTop,
+                    },
+                  },
+                  "*"
+                );
+              }
+            };
+            window.infoflotWidgetLoad = function (frame) {
+              setParentWindowParams(frame);
+              infoflotWidget = frame;
+            };
+
+            window.addEventListener("scroll", (event) => {
+              if (infoflotWidget) {
+                setParentWindowParams(infoflotWidget);
+              }
+              if (infoflotWidget && infoflotWidget.contentWindow) {
+                if (window.pageYOffset > infoflotWidget.offsetTop + 200) {
+                  infoflotWidget.contentWindow.postMessage(
+                    {
+                      showBtnTop: true,
+                    },
+                    "*"
+                  );
+                } else {
+                  infoflotWidget.contentWindow.postMessage(
+                    {
+                      showBtnTop: false,
+                    },
+                    "*"
+                  );
+                }
+              }
+            });
+
+            /**
+             * Считает ширину скроллбара браузера в пикселях
+             * @returns {number}
+             */
+            const getScrollbarWidth = function () {
+              // Creating invisible container
+              const outer = document.createElement("div");
+              outer.style.visibility = "hidden";
+              outer.style.overflow = "scroll"; // forcing scrollbar to appear
+              outer.style.msOverflowStyle = "scrollbar"; // needed for WinJS apps
+              document.body.appendChild(outer);
+
+              // Creating inner element and placing it in the container
+              const inner = document.createElement("div");
+              outer.appendChild(inner);
+
+              // Calculating difference between container's full width and the child width
+              const scrollbarWidth = outer.offsetWidth - inner.offsetWidth;
+
+              // Removing temporary elements from the DOM
+              outer.parentNode.removeChild(outer);
+
+              return scrollbarWidth;
+            };
+
+            window.onmessage = (e) => {
+              //сообщаем новую высоту ифрейма
+              if (e.data.hasOwnProperty("frameHeight") && infoflotWidget) {
+                infoflotWidget.style.height = e.data.frameHeight + 20 + "px";
+              }
+
+              //сообщаем ширину ифрейма
+              if (e.data.hasOwnProperty("frameWidth") && infoflotWidget) {
+                infoflotWidget.style.maxWidth = e.data.frameWidth;
+                infoflotWidget.style.margin = "0 auto";
+                infoflotWidget.style.display = "block";
+              }
+
+              //scroll к верху ифрейма
+              if (e.data.hasOwnProperty("scrollTop") && infoflotWidget) {
+                const topInfoflotWidget =
+                  infoflotWidget.offsetTop + e.data.scrollTo;
+                window.scrollTo({
+                  top: topInfoflotWidget,
+                  behavior: e.data.behavior,
+                });
+              }
+
+              //scroll к низу ифрейма
+              if (e.data.hasOwnProperty("scrollBottom") && infoflotWidget) {
+                const bottomInfoflotWidget = e.data.hasOwnProperty(
+                  "frameHeight"
+                )
+                  ? e.data.frameHeight +
+                    infoflotWidget.offsetTop -
+                    window.innerHeight
+                  : infoflotWidget.offsetTop +
+                    infoflotWidget.offsetHeight -
+                    window.innerHeight;
+                window.scrollTo(0, bottomInfoflotWidget);
+              }
+
+              //сообщаем, что в ифрейме открыли попап
+              if (e.data.hasOwnProperty("openPopup")) {
+                document.documentElement.style.overflow =
+                  e.data.openPopup === true ? "hidden" : "";
+                /* if(e.data.openPopup === true){
+            document.body.style.paddingRight = getScrollbarWidth() + 'px';
+          } else{
+            document.body.style.paddingRight = '';
+          } */
+              }
+            };
+            infoflotWidget.src +=
+              "&referer=" + encodeURIComponent(location.href);
+          </script>
+        </div>
+      </div>
+
+      <div class="hot__tours">
+        <h2 class="main__title">ГОРЯЩИЕ ТУРЫ</h2>
+        <div
+          class="tv-hot-tours"
+          tv-view="1"
+          tv-rows="3"
+          tv-width="auto"
+          tv-imgpos="1"
+          tv-theme="theme2"
+          tv-borderwidth="1"
+          tv-departure="5"></div>
+        <!-- <script
+          type="text/javascript"
+          src="//tourvisor.ru/module/init.js"></script> -->
+        <style>
+          #TVHotTours0 .TVLabel {
+            color: #ff6856;
+            text-shadow: none;
+          }
+
+          #TVHotTours0 .TVMinPFilterWrap {
+            background-color: #f5f5f5;
+            background-color: rgba(245, 245, 245, 1);
+          } /*TV*TV*/
+        </style>
+      </div>
+
+      <div id="ready" class="ready">
+        <div class="ready__block">
+          <div class="ready__background"></div>
+          <div class="ready__block__left">
+            <h2 class="ready__subtitle">Готовы к отдыху прямо сейчас?</h2>
+            <p class="ready__paragraph">
+              У нас в базе 564 горящих тура по разным направлениям, оставьте
+              заявку и получите самые выгодные предложения от нашего менеджера!
+            </p>
+            <button type="button" class="ready__button">
+              Подобрать горящий тур
+            </button>
+          </div>
+          <div class="ready__block__right"></div>
+        </div>
+      </div>
+      <div id="reviews" class="reviews">
+        <h2 class="main__title">ОТЗЫВЫ</h2>
+
+        <div class="partners">
+          <div class="partners__block">
+            <ul class="reviews__list">
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Мария</div>
+                  <div>27 октября</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Летали в Турцию со Снежаной, учла все наши хотелки, нашла нам
+                  отель с отличной территорией и питанием, подобрала перелеты,
+                  очень довольны, теперь только сюда!
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Егор</div>
+                  <div>13 декабря</div>
+                </div>
+                <p class="reviews__paragraph">
+                  У меня была большая мечта посмотреть всю Индию, обратился в
+                  эту турфирму, мне предложили классный тур экскурсии+ отдых в
+                  Гоа, помогли оформить визу, вели меня от и до, так что я даже
+                  не переживал, что лечу один. Очень благодарен девочкам из
+                  фирмы
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Ольга</div>
+                  <div>16 января</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Моя семья уже 5 лет летает только с этим турагентством, были в
+                  Турции, Египте и Эмиратах, всегда менеджеры хорошо подбирают
+                  варианты, стараются найти максимально выгодно, спасибо им
+                  большое
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Александра</div>
+                  <div>20 февраля</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Когда в том году началась СВО, мы думали наш отдых и деньги
+                  пропали, как у некоторых знакомых, но девочки все время были
+                  на связи, помогли перенести деньги на другой тур, так что мы
+                  хорошо отдохнули, когда появилась возможность
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Ярослав</div>
+                  <div>5 августа</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Летал от менеджера Галины в Дубай. Подобрала классный отель,
+                  рядом с метро, были завтраки хорошие, я остался доволен.
+                  Приятно, когда менеджер знает, что продает
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Анастасия</div>
+                  <div>13 июля</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Отпуск дали внезапно, надо было найти горящий тур, летела одна
+                  и первый раз за границу! Обратилась по рекомендации к Снежане
+                  и не пожалела, человек на своем месте, все мне объяснила, как
+                  ребенку, нашла классный вариант по Турции, отдохнула супер
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Наталья</div>
+                  <div>16 апреля</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Мы купили тур и начался ковид, я была просто в шоке, все
+                  самолеты отменили, думала, что уже деньги пропали, но девочки
+                  мне успокоили, нашли мне классный тур по России, деньги все
+                  перенесли, и даже отстаток вернули через время. Надежная фирма
+                </p>
+              </li>
+              <li class="reviews__item">
+                <div class="reviews__header">
+                  <div>Олег</div>
+                  <div>21 февраля</div>
+                </div>
+                <p class="reviews__paragraph">
+                  Я всегда путешествую один, мне надо тур повеселее и подешевле.
+                  Зашел к девчатам - помогли мне найти то, что нужно, полетел по
+                  итогу на Кубу, но за нормальные деньги, там потусил как
+                  следует
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          id="carouselExample1"
+          class="carousel slide reviews__slide"
+          data-bs-touch="true"
+          data-bs-ride="carousel">
+          <ul class="carousel-inner reviews__list__slider">
+            <li
+              class="carousel-item reviews__item__slider active"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Мария</div>
+                <div>27 октября</div>
+              </div>
+              <p class="reviews__paragraph">
+                Летали в Турцию со Снежаной, учла все наши хотелки, нашла нам
+                отель с отличной территорией и питанием, подобрала перелеты,
+                очень довольны, теперь только сюда!
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Егор</div>
+                <div>13 декабря</div>
+              </div>
+              <p class="reviews__paragraph">
+                У меня была большая мечта посмотреть всю Индию, обратился в эту
+                турфирму, мне предложили классный тур экскурсии+ отдых в Гоа,
+                помогли оформить визу, вели меня от и до, так что я даже не
+                переживал, что лечу один. Очень благодарен девочкам из фирмы
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Ольга</div>
+                <div>16 января</div>
+              </div>
+              <p class="reviews__paragraph">
+                Моя семья уже 5 лет летает только с этим турагентством, были в
+                Турции, Египте и Эмиратах, всегда менеджеры хорошо подбирают
+                варианты, стараются найти максимально выгодно, спасибо им
+                большое
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Александра</div>
+                <div>20 февраля</div>
+              </div>
+              <p class="reviews__paragraph">
+                Когда в том году началась СВО, мы думали наш отдых и деньги
+                пропали, как у некоторых знакомых, но девочки все время были на
+                связи, помогли перенести деньги на другой тур, так что мы хорошо
+                отдохнули, когда появилась возможность
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Ярослав</div>
+                <div>5 августа</div>
+              </div>
+              <p class="reviews__paragraph">
+                Летал от менеджера Галины в Дубай. Подобрала классный отель,
+                рядом с метро, были завтраки хорошие, я остался доволен.
+                Приятно, когда менеджер знает, что продает
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Анастасия</div>
+                <div>13 июля</div>
+              </div>
+              <p class="reviews__paragraph">
+                Отпуск дали внезапно, надо было найти горящий тур, летела одна и
+                первый раз за границу! Обратилась по рекомендации к Снежане и не
+                пожалела, человек на своем месте, все мне объяснила, как
+                ребенку, нашла классный вариант по Турции, отдохнула супер
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Наталья</div>
+                <div>16 апреля</div>
+              </div>
+              <p class="reviews__paragraph">
+                Мы купили тур и начался ковид, я была просто в шоке, все
+                самолеты отменили, думала, что уже деньги пропали, но девочки
+                мне успокоили, нашли мне классный тур по России, деньги все
+                перенесли, и даже отстаток вернули через время. Надежная фирма
+              </p>
+            </li>
+            <li
+              class="carousel-item reviews__item__slider"
+              data-bs-interval="10000">
+              <div class="reviews__header">
+                <div>Олег</div>
+                <div>21 февраля</div>
+              </div>
+              <p class="reviews__paragraph">
+                Я всегда путешествую один, мне надо тур повеселее и подешевле.
+                Зашел к девчатам - помогли мне найти то, что нужно, полетел по
+                итогу на Кубу, но за нормальные деньги, там потусил как следует
+              </p>
+            </li>
+          </ul>
+
+          <div class="carousel__controller">
+            <button
+              class="slider__prev"
+              type="button"
+              data-bs-target="#carouselExample1"
+              data-bs-slide="prev"></button>
+            <button
+              class="slider__next"
+              type="button"
+              data-bs-target="#carouselExample1"
+              data-bs-slide="next"></button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__block">
+        <div class="footer__map">
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab292355edfde564e05bb6abd9fec87f6179f0cf07114c643f2e6fb073a2bd6f3&amp;width=1920&amp;height=250&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="tel:+78126120323" class="footer__contact_link"
+              >+7 812 612 03 23</a
+            >
+            <a href="tel:+79516770390" class="footer__contact_link"
+              >+7 951 677 03 90</a
+            >
+            <a href="mailto:miratur.spb@mail.ru" class="footer__contact_link"
+              >miratur.spb@mail.ru</a
+            >
+            <button class="header__contact_feedback footer__popup__button">
+              Обратный звонок
+            </button>
+          </li>
+          <li class="footer__item">
+            <img
+              src="./images/logo.svg"
+              alt="логотип"
+              class="logo header__logo" />
+            <h1 class="header__title">ТУРАГЕНТСТВО МИРА</h1>
+            <p class="header__subtitle">расширяем границы вашего отдыха</p>
+            <ul class="footer__social__list">
+              <li class="footer__social__item">
+                <a
+                  href="https://wa.me/+79516770390"
+                  target="_blank"
+                  class="footer__social__link"></a>
+              </li>
+              <li class="footer__social__item">
+                <a
+                  href="https://t.me/+79819891887"
+                  target="_blank"
+                  class="footer__social__link"></a>
+              </li>
+              <li class="footer__social__item">
+                <a
+                  href="https://vk.com/turkolpino"
+                  target="_blank"
+                  class="footer__social__link"></a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <p class="footer__adress">
+              г. Санкт-Петербург, Колпино, ул.<br />Братьев Радченко,11,<br />Лит.А,
+              офис 4-Н
+            </p>
+            <p class="footer__work-time">
+              пн-птн с 11:00 до 19:00<br />сб с 11:00 до 16:00<br />вс выходной
+            </p>
+          </li>
+        </ul>
+      </div>
+      <a href="http://nice-dev.ru/" class="nice-dev" target="_blank"
+        >Nice Dev Web-Studio</a
+      >
+    </footer>
+
+    <section class="popup popup__feedback">
+      <div class="popup__container">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title">Заказ обратного звонка</h2>
+        <form
+          method="POST"
+          class="form"
+          id="feedback-form"
+          action="./php/send__feedback.php">
+          <ul class="form-contacts">
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Имя</label>
+              <input
+                class="form__popup__input"
+                type="text"
+                name="name"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Телефон</label>
+              <input
+                class="form__popup__input"
+                type="number"
+                name="phone"
+                min="10"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Комментарий</label>
+              <textarea
+                class="form__popup__comments"
+                name="message"
+                minlength="5"
+                required></textarea>
+            </li>
+          </ul>
+          <div class="form__popup__send-message">
+            <button type="submit" class="form__popup__send-button">
+              Отправить
+            </button>
+            <span class="privacy"
+              >Нажимая на кнопку, вы даете согласие, что ознакомлены с
+              <a
+                href="./components/privacy.html"
+                class="privacy__link"
+                target="_blank"
+                >политикой конфиденциальности</a
+              >
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="popup popup__hot-tours">
+      <div class="popup__container">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title">Заказ горящего тура!</h2>
+        <form
+          method="POST"
+          class="form"
+          id="hot-tours-form"
+          action="./php/send__hot-tours.php">
+          <ul class="form-contacts">
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Имя</label>
+              <input
+                class="form__popup__input"
+                type="text"
+                name="name"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Телефон</label>
+              <input
+                class="form__popup__input"
+                type="number"
+                name="phone"
+                min="10"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Комментарий</label>
+              <textarea
+                class="form__popup__comments"
+                name="message"
+                minlength="10"
+                required></textarea>
+            </li>
+          </ul>
+          <div class="form__popup__send-message">
+            <button type="submit" class="form__popup__send-button">
+              Отправить
+            </button>
+            <span class="privacy"
+              >Нажимая на кнопку, вы даете согласие, что ознакомлены с
+              <a
+                href="./components/privacy.html"
+                class="privacy__link"
+                target="_blank"
+                >политикой конфиденциальности</a
+              >
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="popup popup__office-tour">
+      <div class="popup__container">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title">Подбор и покупка тура в офисе</h2>
+        <form
+          method="POST"
+          class="form"
+          id="buy-in-office-form"
+          action="./php/send__tour-in-office.php">
+          <ul class="form-contacts">
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Имя</label>
+              <input
+                class="form__popup__input"
+                type="text"
+                name="name"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Телефон</label>
+              <input
+                class="form__popup__input"
+                type="number"
+                name="phone"
+                min="10"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >Когда планируете подойти?</label
+              >
+              <input
+                class="form__popup__input"
+                type="text"
+                name="date"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Комментарий</label>
+              <textarea
+                class="form__popup__comments"
+                name="message"
+                minlength="10"
+                required></textarea>
+            </li>
+          </ul>
+          <div class="form__popup__send-message">
+            <button type="submit" class="form__popup__send-button">
+              Отправить
+            </button>
+            <span class="privacy"
+              >Нажимая на кнопку, вы даете согласие, что ознакомлены с
+              <a
+                href="./components/privacy.html"
+                class="privacy__link"
+                target="_blank"
+                >политикой конфиденциальности</a
+              >
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="popup popup__office-tour-manager">
+      <div class="popup__container">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title popup__title__manager-name"></h2>
+        <form method="POST" class="form" id="buy-tour-manager">
+          <ul class="form-contacts">
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Имя</label>
+              <input
+                class="form__popup__input"
+                type="text"
+                name="name"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Телефон</label>
+              <input
+                class="form__popup__input"
+                type="number"
+                name="phone"
+                min="10"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >Во сколько вам удобнее пообщаться?</label
+              >
+              <input
+                class="form__popup__input"
+                type="text"
+                name="time"
+                minlength="5"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">Комментарий</label>
+              <textarea
+                class="form__popup__comments"
+                name="message"
+                required></textarea>
+            </li>
+          </ul>
+          <input type="hidden" name="subject" value="" />
+          <div class="form__popup__send-message">
+            <button type="submit" class="form__popup__send-button">
+              Отправить
+            </button>
+            <span class="privacy"
+              >Нажимая на кнопку, вы даете согласие, что ознакомлены с
+              <a
+                href="./components/privacy.html"
+                class="privacy__link"
+                target="_blank"
+                >политикой конфиденциальности</a
+              >
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="popup popup__questionnaire">
+      <div class="popup__container popup__container_questionnaire">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title popup__title_questionnaire">
+          Ответьте на 7 вопросов и получите качественные варианты туров с
+          гарантией честной цены, онлайн оформлением и поддержкой
+          квалифицированного специалиста!
+        </h2>
+        <form
+          method="POST"
+          class="form"
+          id="questionnaire-form"
+          action="./php/send__questionnaire.php">
+          <ul class="form-contacts">
+            <li class="form__popup__item">
+              <label class="form__popup__lable">1. Как вас зовут?</label>
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="name"
+                placeholder="Иван"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >2. Когда планируете отдых?
+              </label>
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="date"
+                placeholder="С 12-17 мая"
+                minlength="5"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >3. Сколько человек летит с вами (если есть дети, указать
+                возраст)?</label
+              >
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="people"
+                placeholder="Я, жена и 2 реб (8 и 12)"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >4. Какие страны предпочтительны для отдыха?</label
+              >
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="countries"
+                placeholder="Турция, Египет"
+                minlength="3"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >5. Вы предпочитаете пляжный или экскурсионный отдых?</label
+              >
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="vacation"
+                placeholder="Пляжный"
+                minlength="3"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable"
+                >6. Что вам не понравилось в вашу предыдущую поездку?</label
+              >
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="text"
+                name="last-vacation"
+                placeholder="Было далеко до моря"
+                minlength="3"
+                required />
+            </li>
+            <li class="form__popup__item">
+              <label class="form__popup__lable">7. Удобный способ связи?</label>
+              <input
+                class="form__popup__input form__popup__input_questionnaire"
+                type="tel"
+                name="feedback"
+                placeholder="+7 925 111 11 11 (лучше мессенджер)"
+                minlength="7"
+                required />
+            </li>
+          </ul>
+          <div class="form__popup__send-message">
+            <button type="submit" class="form__popup__send-button">
+              Отправить
+            </button>
+            <span class="privacy"
+              >Нажимая на кнопку, вы даете согласие, что ознакомлены с
+              <a
+                href="./components/privacy.html"
+                class="privacy__link"
+                target="_blank"
+                >политикой конфиденциальности</a
+              >
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="popup popup__answer">
+      <div class="popup__container">
+        <span class="popup__close-button"></span>
+        <h2 class="popup__title popup__title__answer">Спасибо!</h2>
+        <h3 class="popup__subtitle__answer">
+          Спасибо за ваш запрос! Мы обязательно скоро с вами свяжемся!
+        </h3>
+        <p class="popup__paragraph__answer">
+          <strong>Мы находимся:</strong><br />г. Санкт-Петербург, Колпино, ул.
+          Братьев Радченко,11,<br />Лит.А, офис 4-Н<br />пн-птн с 11:00 до
+          19:00<br />сб с 11:00 до 16:00<br />вс выходной
+        </p>
+      </div>
+    </section>
+
+    <button id="scrollUpButton" class="scrollup">
+      <span></span>
+      <span></span>
+    </button>
+    <script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./script/send-mail.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
